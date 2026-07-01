@@ -1,12 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-function Home() {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-50 text-slate-500">
-      Loading tasks…
-    </div>
-  );
-}
+import Home from '@/pages/Home';
 
 export default function App() {
   return (
